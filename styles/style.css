@@ -1,5 +1,10 @@
 * {box-sizing: border-box; }
 
+.wrapper {
+  width: 1110px;
+  margin-right: auto;
+  margin-left: auto;
+}
 body {
   margin:0px;
 }
@@ -20,3 +25,13 @@ body {
   background-color: #EFEFEF;
   height: 50px;
   text-align: center;}
+
+.logo {
+  width: 258px;
+  height: 80px;
+}
+
+.button {
+  border-radius: 40px;
+  font-size: 14px;
+}
