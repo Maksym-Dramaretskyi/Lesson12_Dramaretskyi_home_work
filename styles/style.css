@@ -8,6 +8,7 @@ body {
   text-decoration: none;
   margin-right: 30px;
   font-size: 14px;
+  color: black;
 }
 .nav_shelf:last-child {
   margin-right: 0px;
