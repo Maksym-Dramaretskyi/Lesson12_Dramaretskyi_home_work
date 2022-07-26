@@ -1,0 +1,21 @@
+* {box-sizing: border-box; }
+
+body {
+  margin:0px;
+}
+
+.nav_shelf a {
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 14px;
+}
+.nav_shelf:last-child {
+  margin-right: 0px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.shelf_color {
+  margin: 0px;
+  background-color: #EFEFEF;
+  height: 50px;
+  text-align: center;}
