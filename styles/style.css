@@ -8,7 +8,9 @@
   width: 1110px;
   margin-right: auto;
   margin-left: auto;
+ 
 }
+
 body {
   margin:0px;
   font-family: 'Roboto';
@@ -34,39 +36,42 @@ body {
   text-align: center;}
 
 
+.float_left {
+  float: left;
+}
+
 
 
 .logo {
-  display: inline-block;
-  margin: 0px;
-  padding-top: 20px;
-  width: 258px;
   height: 80px;
-}
-
-.button {
-  display: inline-block;
-
+  width: 258px;
   margin: 0px;
-  margin-bottom: 20px;
-  border-radius: 40px;
-  font-size: 14px;
+  margin-top: 20px;
 }
+
 .number  {
   display: inline-block;
-  margin-left: 600px;
-  margin: top 0px;
-  padding-top: 50px;
+  margin-left: 510px;
+  padding-top: 40px;
   padding-bottom: 50px;
 
-  
+}
 
+
+
+.button_heder {
+
+  border-color: #F13C6E;
+  background-color:#FFFFFF;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 26px;
+  padding-right: 26px;
+  border-radius: 40px;
+  margin-left: 40px;
 }
-.action  {
-  display: inline-block;
-  margin-right: auto;
-  margin-left: auto;  
-}
+
+
 
 .banner {
   background-color: #F13C6E;
@@ -75,15 +80,7 @@ body {
 }
 
 
-.line::after {
-  content: "";
 
-  height: 2px;
-  width: 30px;
-  background-color: #F13C6E;
-  vertical-align: middle;
-
- }
 .down_shelf a {
   margin-right: 30px;
 }
@@ -101,12 +98,15 @@ body {
 .section_indent {
   padding-top: 60px;
 }
+.all_cards {
+  
+}
 
 .card_slide {
   display: inline-block;
   margin: 0px;
   margin-right: 30px;
-  width: 252px;
+
 }
 
 .card_slide:nth-child(4) {
@@ -122,11 +122,25 @@ body {
 }
 
 .slide_text {
+  
+  text-align: center;
+  margin: 0px;
+
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+
+.slide_text_price {
+  text-align: center;
   margin: 0px;
   margin-bottom: 20px;
   font-size: 14px;
-  text-align: center;
+
+  
+
 }
+
 
 .slide_button {
   margin: 0px;
