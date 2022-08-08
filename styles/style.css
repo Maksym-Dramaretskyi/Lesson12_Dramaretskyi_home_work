@@ -70,8 +70,10 @@ body {
 
 .banner {
   background-color: #F13C6E;
-  text-align: center
+  text-align: center;
+  height: 604px;
 }
+
 
 .line::after {
   content: "";
@@ -96,13 +98,15 @@ body {
   background-color: #C4C4C4;
 }
 
-
+.section_indent {
+  padding-top: 60px;
+}
 
 .card_slide {
   display: inline-block;
   margin: 0px;
   margin-right: 30px;
-  width: 254px;
+  width: 252px;
 }
 
 .card_slide:nth-child(4) {
